@@ -1,0 +1,26 @@
+{
+    "name": "dhamkith/contactus",
+    "description": "contact us feture for laravel framwork",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ishan",
+            "email": "dhamkith@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dhamkith\\Contactus\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dhamkith\\Contactus\\ContactUsServiceProvider"
+            ]
+        }
+    }
+}
